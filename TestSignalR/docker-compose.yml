@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  testsignalr:
+    image: 01686120288/test-signalr:1.0.0
+    build:
+      context: .
+      dockerfile: TestSignalR/Dockerfile
+    ports:
+        - "5000:5000"

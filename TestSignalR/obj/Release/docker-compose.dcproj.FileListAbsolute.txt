@@ -1,0 +1,15 @@
+E:\MISA\TestSignalR\bin\Release\TestSignalR.Views.dll
+E:\MISA\TestSignalR\bin\Release\TestSignalR.Views.pdb
+E:\MISA\TestSignalR\bin\Release\TestSignalR.deps.json
+E:\MISA\TestSignalR\bin\Release\TestSignalR.runtimeconfig.json
+E:\MISA\TestSignalR\bin\Release\TestSignalR.runtimeconfig.dev.json
+E:\MISA\TestSignalR\bin\Release\appsettings.Development.json
+E:\MISA\TestSignalR\bin\Release\appsettings.json
+E:\MISA\TestSignalR\bin\Release\libman.json
+E:\MISA\TestSignalR\bin\Release\TestSignalR.exe
+E:\MISA\TestSignalR\bin\Release\TestSignalR.dll
+E:\MISA\TestSignalR\bin\Release\QRCoder.dll
+E:\MISA\TestSignalR\bin\Release\TestSignalR.pdb
+E:\MISA\TestSignalR\obj\Release\docker-compose.dcproj.AssemblyReference.cache
+E:\MISA\TestSignalR\obj\Release\docker-compose.dcproj.CoreCompileInputs.cache
+E:\MISA\TestSignalR\obj\Release\docker-compose.dcproj.CopyComplete

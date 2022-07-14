@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "6PRy5SvZzpHYIIi3Nlo1OCFCs+wPogrqAlgrluT9f1gtQrTV9L7gu58ZQwcm8QVTagp0N0mr5G1AqBhSrxHCRA==",
+  "success": true,
+  "projectFilePath": "E:\\MISA\\TestSignalR\\TestSignalR\\TestSignalR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\duong\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\duong\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
+    "C:\\Users\\duong\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\duong\\.nuget\\packages\\qrcoder\\1.4.2\\qrcoder.1.4.2.nupkg.sha512",
+    "C:\\Users\\duong\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

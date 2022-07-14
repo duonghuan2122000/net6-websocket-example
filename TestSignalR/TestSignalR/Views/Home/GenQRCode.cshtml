@@ -1,0 +1,20 @@
+﻿@page
+
+<img src="data:image/png;base64,@ViewBag.QRCodeImg" width="100" height="100" />
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+    let who = "@ViewBag.Who";
+    connection.start().then(function () {
+        connection.invoke("JoinHub", who)
+            .catch(err => console.error(err));
+    }).catch(function (err) {
+          return console.error(err.toString());
+    });
+
+    connection.on("IPNWebhook", function (message) {
+        window.location.href = "/Result?message=" + message;
+    });
+</script>
