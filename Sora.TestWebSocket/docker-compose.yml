@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sora.testwebsocket:
+    image: 01686120288/soratestwebsocket:1.0.0
+    build:
+      context: .
+      dockerfile: Sora.TestWebSocket/Dockerfile

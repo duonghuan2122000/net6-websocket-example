@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MmhviYGQzmj1+GxaQjzdcLz3J1+NC1kZwVzDIduSGGupGQ4NXDVpEhJrTl5UpHMYeEMgu9uUi/OMcWGHItYFmw==",
+  "dgSpecHash": "ciCzp8KR+/o15zBeSRAy2cROk1qW2y1vVHHm5vq42Gy4jiP+nDufGc/2sPMHNROk2cu+oV7EF5Im/fB80lSGmA==",
   "success": true,
   "projectFilePath": "E:\\MISA\\TestWebSocket\\Sora.TestWebSocket\\Sora.TestWebSocket\\Sora.TestWebSocket.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -17,17 +17,25 @@
         let port = document.location.port ? (":" + document.location.port) : "";
         let connectionUrl = schema + "://" + document.location.hostname + port + "/ws";
 
+let wsStatusEle = document.getElementById("ws-status");
+
         let socket = new WebSocket(connectionUrl);
         socket.onopen = function(event) {
-            document.getElementById("ws-status").append("Kết nối thành công <br/>");
+            let div = document.createElement("div");
+            div.innerHTML = "Kết nối thành công <br/>";
+            wsStatusEle.append(div);
         }
 
         socket.onclose = function(event) {
-            document.getElementById("ws-status").append("Đóng kết nối <br/>");
+            let div = document.createElement("div");
+            div.innerHTML = "Đóng kết nối <br/>";
+            wsStatusEle.append(div);
         }
 
         socket.onmessage = function(event) {
-            document.getElementById("ws-status").append(`Message: ${event.data} <br/>`);
+            let div = document.createElement("div");
+            div.innerHTML = `Message: ${event.data} <br/>`;
+            wsStatusEle.append(div);
         }
 
 document.getElementById("btn-msg").addEventListener("click", function() {

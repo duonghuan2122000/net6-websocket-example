@@ -1,0 +1,16 @@
+services:
+  sora.testwebsocket:
+    build:
+      context: E:\MISA\TestWebSocket\Sora.TestWebSocket
+      dockerfile: Sora.TestWebSocket/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: soratestwebsocket
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\ASUS\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\ASUS\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
